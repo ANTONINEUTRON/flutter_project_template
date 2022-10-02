@@ -8,7 +8,6 @@ import 'package:flutter_project/features/homepage/data/repository/homepage_repos
 import 'package:flutter_project/features/homepage/domain/repository/homepage_repository.dart';
 import 'package:flutter_project/features/homepage/domain/usercases/get_local_user.dart';
 import 'package:flutter_project/features/homepage/domain/usercases/get_products.dart';
-import 'package:flutter_project/features/splash/domain/usecase/check_user_login_status.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -18,9 +17,9 @@ import '../services/user_cache_service.dart';
 final serviceLocator = GetIt.instance;
 Future<void> setUpServiceLocator() async {
   //check if user logged in or not
-  serviceLocator.registerFactory<CheckUserLoginStatus>(
-    () => CheckUserLoginStatusImpl(),
-  );
+  // serviceLocator.registerFactory<CheckUserLoginStatus>(
+  //   () => CheckUserLoginStatusImpl(),
+  // );
   //usecase
   serviceLocator.registerFactory<LoginUserUsecase>(() => LoginUserUsecase());
 

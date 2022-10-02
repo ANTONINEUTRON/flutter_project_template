@@ -1,4 +1,8 @@
-## Flutter Clean Architecture
+#Antoni's Flutter Template
+I made some changes to the clean architecture template by [Utsav](https://github.com/Uuttssaavv) and made it suit my use case. 
+
+You can have look at the description of the architecture below.
+### Flutter Clean Architecture
 A simple flutter app based on Reso Coder's tutorial but implemented using feature-driven architecture.
 
 <img src="images/graph_.png">
@@ -40,6 +44,5 @@ A simple flutter app based on Reso Coder's tutorial but implemented using featur
 
 ` flutter run ` or simply press ` F5 key` if you are using VSCode
 
-
-
-Do visit my [portfolio site](https://utsavghimire.com.np) or connect with me on [linkedin](https://www.linkedin.com/in/utsav-ghimire-10352a18b/)
+#### EXTRA NOTE By Antoni
+In order to add a splashscreen, [follow this guide by the flutter team](https://docs.flutter.dev/development/ui/advanced/splash-screen)
