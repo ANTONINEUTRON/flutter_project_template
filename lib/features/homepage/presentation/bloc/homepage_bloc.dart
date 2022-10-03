@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_project/core/service_locator.dart';
 import 'package:flutter_project/features/homepage/data/models/user/user_model.dart';
-import 'package:flutter_project/features/homepage/domain/usercases/get_local_user.dart';
-import 'package:flutter_project/features/homepage/domain/usercases/get_products.dart';
+import 'package:flutter_project/features/homepage/domain/usecases/get_local_user.dart';
+import 'package:flutter_project/features/homepage/domain/usecases/get_products.dart';
 import 'package:flutter_project/features/homepage/presentation/bloc/homepage_state.dart';
 
 class HomepageBloc extends Bloc<HomepageEvent, HomepageState> {

@@ -1,4 +1,4 @@
-#Antoni's Flutter Template
+# Antoni's Flutter Template
 I made some changes to the clean architecture template by [Utsav](https://github.com/Uuttssaavv) and made it suit my use case. 
 
 You can have look at the description of the architecture below.

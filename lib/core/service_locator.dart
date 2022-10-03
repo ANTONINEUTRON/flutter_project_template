@@ -6,8 +6,8 @@ import 'package:flutter_project/features/homepage/data/datasource/homepage_produ
 import 'package:flutter_project/features/homepage/data/datasource/homepage_user_local_data_source.dart';
 import 'package:flutter_project/features/homepage/data/repository/homepage_repository.dart';
 import 'package:flutter_project/features/homepage/domain/repository/homepage_repository.dart';
-import 'package:flutter_project/features/homepage/domain/usercases/get_local_user.dart';
-import 'package:flutter_project/features/homepage/domain/usercases/get_products.dart';
+import 'package:flutter_project/features/homepage/domain/usecases/get_local_user.dart';
+import 'package:flutter_project/features/homepage/domain/usecases/get_products.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
