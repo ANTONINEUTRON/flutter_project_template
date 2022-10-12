@@ -45,4 +45,5 @@ A simple flutter app based on Reso Coder's tutorial but implemented using featur
 ` flutter run ` or simply press ` F5 key` if you are using VSCode
 
 #### EXTRA NOTE By Antoni
-In order to add a splashscreen, [follow this guide by the flutter team](https://docs.flutter.dev/development/ui/advanced/splash-screen)
+- In order to add a splashscreen, [follow this guide by the flutter team](https://docs.flutter.dev/development/ui/advanced/splash-screen)
+- The a_features directory is the structure I actually use
